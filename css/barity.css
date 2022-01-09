@@ -1,0 +1,47 @@
+#barity {
+    padding: 125px 0;
+}
+
+.barity__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barity__title {
+    margin-bottom: 78px;
+}
+
+.barity__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barity__card {
+    position: relative;
+    text-align: center;
+    margin-right: 25px;
+}
+.barity__card:last-child {
+    margin-right: 0;
+}
+
+.barity__card-text {
+    margin-top: 22px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.barity-discount {
+    position: absolute;
+    right: -12px;
+    top: 25px;
+    width: 65px;
+    padding: 5px 0;
+    background: #A207BD;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

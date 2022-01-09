@@ -1,0 +1,40 @@
+#banner {
+    position: relative;
+    background-size: cover;
+    background: url('../img/background.png') no-repeat center 0;
+    padding: 50px 0 115px 0;
+}
+
+.banner__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner__content {
+    display: flex;
+    align-items: center;
+}
+.banner__img {
+    width: 120px;
+    height: 120px;
+}
+.banner__text {
+    margin-left: 20px;
+}
+
+.banner__title {
+    font-size: 60px;
+    line-height: 70px;
+}
+.banner__title-violet {
+    color: #B213CE;
+}
+
+.banner__links {
+    margin: 55px 0 40px 0;
+}
+.banner__link:first-child {
+    margin-right: 20px;
+}
+

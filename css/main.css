@@ -1,0 +1,41 @@
+@import "header.css";
+@import "banner.css";
+@import "about-us.css";
+@import "barity.css";
+
+
+@font-face {
+    font-family: 'Invasion';
+    src: url('../fonts/Invasion2000.ttf') format('truetype');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Invasion', sans-serif;
+    color: #fff;
+}
+
+body {
+    background: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 35px;
+    line-height: 47px;
+}
