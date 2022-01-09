@@ -1,0 +1,32 @@
+#other {
+    padding-top: 125px;
+    padding-bottom: 75px;
+}
+
+.other__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.other__title {
+    margin-bottom: 132px;
+}
+
+.other__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.other__card {
+    text-align: center;
+    margin-left: 25px;
+}
+.other__card:first-child {
+    margin-left: 0;
+}
+
+.other__card-img {
+    margin-bottom: 21px;
+}
