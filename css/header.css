@@ -39,14 +39,17 @@
 
 }
 
-.nav__link {
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
+.nav__item {
     margin-left: 37px;
 }
 .nav__item:first-child {
     margin-left: 0;
+}
+
+.nav__link {
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
 }
 
 /* #A207BD */
