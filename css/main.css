@@ -33,16 +33,54 @@ body {
     background: #000;
 }
 
+ul {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 .wrapper {
-    width: 1300px;
+    max-width: 1300px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
 .section-title {
     font-size: 35px;
     line-height: 47px;
+}
+
+
+
+@media (max-width: 992px) {
+
+    .wrapper {
+        padding: 0 30px;
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .wrapper {
+        padding: 0 20px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .section-title {
+        font-size: 24px;
+        line-height: 47px;
+    }
+
 }

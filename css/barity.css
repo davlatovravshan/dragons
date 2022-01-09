@@ -45,3 +45,51 @@
     align-items: center;
     justify-content: center;
 }
+
+
+@media (max-width: 992px) {
+
+    #barity {
+        padding-top: 80px;
+    }
+
+    .barity__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .barity__title {
+        margin-bottom: 20px;
+    }
+
+    .barity__card {
+        margin: 70px 10px;
+    }
+    .barity__card:last-child {
+        margin-right: 10px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    
+
+}
+
+@media (max-width: 576px) {
+
+    #barity {
+        padding-top: 60px;
+    }
+
+    .barity__card-text {
+        margin-top: 10px;
+    }
+
+    .barity__card {
+        margin: 30px 10px;
+    }
+
+}

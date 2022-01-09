@@ -30,3 +30,54 @@
 .other__card-img {
     margin-bottom: 21px;
 }
+
+
+@media (max-width: 992px) {
+
+    #other {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    .other__title {
+        margin-bottom: 100px;
+    }
+
+    .other__cards {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .other__card {
+        text-align: center;
+        margin: 50px 12px;
+    }
+    .other__card:first-child {
+        margin-left: 12px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+   
+
+}
+
+@media (max-width: 576px) {
+
+    #other {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .other__title {
+        margin-bottom: 60px;
+    }
+
+   .other__card {
+        text-align: center;
+        margin: 30px 12px;
+    }
+
+}
