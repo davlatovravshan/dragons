@@ -1,0 +1,84 @@
+#breeding {
+    padding-top: 125px;
+    padding-bottom: 75px;
+}
+
+.breeding__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.breeding__title {
+    margin-bottom: 113px;
+}
+
+
+.breeding__blocks {
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-connect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.block-connect span {
+    width: 7px;
+    height: 8px;
+    background: #A207BD;
+    margin-left: 4px;
+}
+.block-connect span:first-child {
+    margin-left: 0;
+}
+
+.block-one {
+    width: 186px;
+    height: 217px;
+    background: #A207BD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 12px;
+
+    text-align: center;
+}
+
+.block-one.with-image {
+    width: 230px;
+    height: 217px;
+    background: url('../img/breeding/card-1bg.png');
+    margin-left: 0;
+    margin-right: 12px;
+}
+
+
+.block-two {
+    margin: 0 11px;
+}
+.block-two:last-child {
+    margin-right: 0;
+}
+
+.block-two__card {
+    width: 156px;
+    height: 103px;
+    background: #A207BD;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block-two__card:first-child {
+    margin-bottom: 10px;
+}
+
+.block-two__img {
+    position: absolute;
+    top: 23px;
+    left: -29px;
+}
