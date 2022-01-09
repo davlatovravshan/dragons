@@ -53,7 +53,7 @@
 }
 
 /* #A207BD */
-.header__btn {
+/*.header__btn {
     cursor: pointer;
     margin-left: 50px;
     font-family: inherit;
@@ -61,4 +61,16 @@
     padding: 12px 22px;
     border: none;
     background: #A207BD;
+}*/
+
+.header__btn {
+    position: relative;
+    margin-left: 50px;
+}
+
+.header__btn p {
+    position: absolute;
+    top: calc(50% - 16px);
+    left: calc(50% - 50px);
+    line-height: 24px;
 }
