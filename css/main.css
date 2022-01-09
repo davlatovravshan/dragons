@@ -2,6 +2,8 @@
 @import "banner.css";
 @import "about-us.css";
 @import "barity.css";
+@import "roadmap.css";
+@import "game.css";
 
 
 @font-face {
@@ -13,6 +15,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -20,6 +23,7 @@ html, body {
     height: 100%;
     font-family: 'Invasion', sans-serif;
     color: #fff;
+    overflow-x: hidden;
 }
 
 body {
