@@ -20,6 +20,7 @@
 }
 
 .other__card {
+    max-width: 180px;
     text-align: center;
     margin-left: 25px;
 }
