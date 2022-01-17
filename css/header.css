@@ -53,6 +53,7 @@
 }
 
 .header__btn {
+    cursor: pointer;
     position: relative;
     margin-left: 50px;
     width: 130px;
@@ -60,6 +61,7 @@
 }
 
 .header__btn p {
+    color: #ffffff;
     position: absolute;
     top: calc(50% - 16px);
     left: calc(50% - 50px);
